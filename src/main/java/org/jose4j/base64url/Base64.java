@@ -10,6 +10,7 @@ public class Base64
         return getCodec().encodeToString(bytes);
     }
 
+
     public static byte[] decode(final String encoded)
     {
         return getCodec().decode(encoded);
